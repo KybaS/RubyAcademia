@@ -9,7 +9,7 @@ class CheckExamples
   check_array = Examples.new
 
   puts 'default product data'
-  data.product_data()
+  data.product_data
 
   puts 'without new price product data'
   data.product_data(id: rand(1...10000),

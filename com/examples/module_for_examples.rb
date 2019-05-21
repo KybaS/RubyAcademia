@@ -2,8 +2,7 @@ module ModuleForExamples
   class InsideModuleClass
 
     def difference_price(price, new_price)
-      diff = new_price - price
-      diff
+      new_price - price
     end
 
     def product_data(attributes = {})
